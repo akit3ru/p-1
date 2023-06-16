@@ -36,10 +36,7 @@ def strcounter(s):
     syms_counter = {}
     for sym in s:
         syms_counter[sym] = syms_counter.get(sym, 0) + 1
-    for sym, count in syms_counter.items():
-        print(sym, count)
 
 
 print('изменения')
 strcounter('abcaddf')
-# N = 10; O = 10
