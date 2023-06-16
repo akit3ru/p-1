@@ -40,5 +40,6 @@ def strcounter(s):
         print(sym, count)
 
 
+print('изменения')
 strcounter('abcaddf')
 # N = 10; O = 10
