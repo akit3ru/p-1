@@ -22,3 +22,10 @@ font-weight: bold;
 font-size: 26px;
 font-family: Papyrus;
 }
+
+.paragraph-4 {
+font-style: italic;
+text-align: center;
+font-size: 24px;
+text-shadow: 5px 5px #6BB383;
+}
