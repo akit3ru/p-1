@@ -1,4 +1,6 @@
 from django.db import models
+from django.contrib import admin
+from django.utils.html import format_html
 
 
 class Advert(models.Model):
@@ -13,6 +15,20 @@ class Advert(models.Model):
     created_at = models.DateTimeField(auto_now_add=True)
     # срабатывает каждый раз при изменениях
     updated_at = models.DateTimeField(auto_now=True)
+
+    def created_date(self):
+        from django.utils import timezone
+        if self.created_at.date() == timezone.now().date():
+            created_time = self.created_at.time().strftime('%H:%M:%S')
+            return format_html('<span style="color: #8A74BE; font-weight: bold;">Сегодня в {}</span>', created_time)
+        return self.created_at.strftime('%d.%m.%Y в %H:%M:%S')
+
+    def updated_date(self):
+        from django.utils import timezone
+        if self.updated_at.date() == timezone.now().date():
+            updated_time = self.updated_at.time().strftime('%H:%M:%S')
+            return format_html('<span style="color: #608BAF; font-weight: bold;">Сегодня в {}</span>', updated_time)
+        return self.updated_at.strftime('%d.%m.%Y в %H:%M:%S')
 
     def __str__(self):
         return f"{self.title} {self.description} {self.price} {self.auction} {self.created_at} {self.updated_at}"
