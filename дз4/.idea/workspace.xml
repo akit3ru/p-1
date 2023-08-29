@@ -3,11 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="915cb011-de8f-420e-8621-2074243e7205" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/adv/app_lesson_4/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/adv/app_lesson_4/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/adv/adv/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/adv/adv/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/adv/adv/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/adv/adv/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/adv/app_lesson_4/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/adv/app_lesson_4/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/adv/app_lesson_4/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/adv/app_lesson_4/apps.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/adv/app_lesson_4/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/adv/app_lesson_4/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/adv/app_lesson_4/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/adv/app_lesson_4/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/adv/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/adv/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/adv/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/adv/templates/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
